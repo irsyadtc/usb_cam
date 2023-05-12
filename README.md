@@ -25,3 +25,15 @@ usb\_cam is released with a BSD license. For full terms and conditions, see the 
 ## Authors
 
 See the [AUTHORS](AUTHORS.md) file for a full list of contributors.
+
+## Add on IP camera Android phone
+
+Install IP Webcam apps on your android phone. Make sure both ROS PC and phone are on the same network.
+
+On the phone
+Open IP Webcam and press 'Start server' option. Take note of its IP address e.g. http://192.168.0.174:8080
+
+ROS PC
+Terminal 1: ```roscore```
+Terminal 2: ```rosrun usb_cam ip_cam_node.py http://192.168.0.174:8080/shot.jpg```
+
