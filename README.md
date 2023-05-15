@@ -37,5 +37,7 @@ ROS PC
 
 Terminal 1: ```roscore```
 
-Terminal 2: ```rosrun usb_cam ip_cam_node.py http://192.168.0.174:8080/shot.jpg open```
+Terminal 2: ```rosrun usb_cam ip_cam_node.py http://ip_address_&_port/shot.jpg type_'open'_to_display```
+
+e.g.: ```rosrun usb_cam ip_cam_node.py http://192.168.0.174:8080/shot.jpg open```
 
